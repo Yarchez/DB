@@ -1,3 +1,4 @@
+-- for greenplum databases
 SELECT p.schemaname, p.tablename,
 p.partitionname, p.partitionboundary,
 c.columnname
